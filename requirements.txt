@@ -7,7 +7,7 @@
 # Not installed by pip:
 #   - FFmpeg: ffmpeg.exe + ffprobe.exe on PATH, in C:\ffmpeg\bin, or in a folder named ffmpeg next to RUN.bat
 #   - Gemini key: copy .env.example to .env and put your key in it
-
+streamlit==1.38.0
 google-genai==2.25.0        # Gemini translation
 python-dotenv==1.0.1        # reads the Gemini key from .env
 edge-tts>=7.2.8             # Myanmar Edge TTS voices (left unpinned upward: Microsoft changes the service now and then)
